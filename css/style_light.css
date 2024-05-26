@@ -1,0 +1,83 @@
+body {
+    margin: 10px;
+    margin-top: 50px;
+    color: hsl(0, 0%, 20%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f5f5;
+}
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    background: rgba(24, 223, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(24, 223, 255, 0.3);
+}
+nav {
+    width: 100%;
+
+}
+ ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 20px; 
+} ul li {
+    display: inline-block;
+    margin: 0 10px;
+    transition: background 0.5s;
+    width: 40px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 0.05;
+    padding: 10px;
+ 
+} li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ ul li:hover {
+    background: #0bdd86;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas iguales */
+    gap: 20px; /* Espacio entre columnas */
+    margin: 5px;
+}
+
+.card {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    text-align: center;
+}
+.card:hover {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+footer {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);;
+    text-align: center;
+    padding: 10px;
+}
+footer i {
+    font-size: 40px;
+    color: #333;
+    margin: 0 10px;
+}
