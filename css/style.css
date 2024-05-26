@@ -113,7 +113,7 @@ input + label::after {
     background-repeat: no-repeat;
     background-position: center 55%;
     background-size: 80px 80px;
-    line-height: var(--slider-height); /* Ajuste dinámico para la altura del slider */
+    line-height: var(--slider-height); /* Ajuste para la altura del slider */
     transition: background-size 200ms;
     position: absolute;
     color: var(--border-color);
@@ -276,7 +276,6 @@ input:checked + label + .slide {
     margin: 0px;
     display: inline-block;
     transition: background-color 0.3s;
-    border-radius: 5px;
 }
 .btn-login:hover
 {
@@ -476,6 +475,7 @@ input {
         transition: color 0.3s;
         color: aqua;
     }
+
 /* Fuentes de Google */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
